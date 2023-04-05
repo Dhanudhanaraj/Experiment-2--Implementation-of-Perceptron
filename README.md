@@ -5,6 +5,7 @@ To implement a perceptron for classification using Python
 
 ## EQUIPMENTS REQUIRED:
 Hardware – PCs
+
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 ## RELATED THEORETICAL CONCEPT:
@@ -47,16 +48,16 @@ Print the accuracy
  NAME:D.Dhanumalya.
  REGISTER NUMBER:212222230030
  
- ### Libraries
+ Libraries
  
- import numpy as np 
+import numpy as np 
 import pandas as pd 
 import matplotlib.pyplot as plt 
 from mpl_toolkits import mplot3d
 from sklearn.model_selection import train_test_split 
 from sklearn.metrics import accuracy_score
 
- ### Class Perceptron
+ Class Perceptron
 
 class Perceptron:
   def __init__(self, learning_rate=0.1):
